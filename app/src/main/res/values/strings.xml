@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Redux Android</string>
+    <string name="title_activity_pothole">PotholeActivity</string>
+</resources>
