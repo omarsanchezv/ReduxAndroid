@@ -9,7 +9,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class PotholeActivity : BaseActivity<PotholesState>() {
-    private val vm : PotholeStore by viewModels()
+    private val vm: PotholeStore by viewModels()
     override fun store(): Store<PotholesState> = vm
 
     override fun onCreate(savedInstanceState: Bundle?) {

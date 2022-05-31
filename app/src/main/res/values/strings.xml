@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Redux Android</string>
     <string name="title_activity_pothole">PotholeActivity</string>
+    <string name="title_activity_simpliest">SimpliestActivity</string>
 </resources>

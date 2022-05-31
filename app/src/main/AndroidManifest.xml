@@ -11,10 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReduxAndroid">
         <activity
+            android:name=".simplest.SimplestActivity"
+            android:exported="true"
+            android:label="@string/title_activity_simpliest"
+            android:theme="@style/Theme.ReduxAndroid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".potholes.PotholeActivity"
             android:exported="true"
             android:label="@string/title_activity_pothole"
-            android:theme="@style/Theme.ReduxAndroid" >
+            android:theme="@style/Theme.ReduxAndroid">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +34,7 @@
         </activity>
         <activity
             android:name=".calculator.CalculatorActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
